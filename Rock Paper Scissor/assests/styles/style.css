@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.playfield,.btns{
+    background: rgb(217,217,217);
+background: linear-gradient(184deg, rgba(217, 217, 217, 0.134) 0%, rgba(0,0,0,1) 100%, rgba(255,255,255,0) 100%);
+}
+
+/* .controls{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+} */

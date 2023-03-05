@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assests/styles/style.css">
+    <script defer src="scripts/script.js"></script>
+    <title>Rock Paper Scissor</title>
+</head>
+<body class="bg-black">
+
+
+    <div class="main mt-10 flex flex-col md:flex-row md:mt-56 w-screen justify-center items-center">
+        <img class="w-16" src="assests/images/bot.png" alt="bot-image">
+        <div class="playfield h-56 w-40 mt-4  py-2 rounded-lg flex flex-col md:flex-row md:mx-20 md:w-1/3  justify-center items-center">
+            <img class="bot_option w-14 my-2 md:w-20 md:mx-20 md:py-10" src="assests/images/scissors.png" alt="scissors">
+            <img class="human_option w-14 my-2 md:w-20 md:mx-20 md:py-10" src="assests/images/rock.png" alt="scissors">
+        </div>
+        <img class=" mt-5 w-16 mt-4" src="assests/images/human.png" alt="">
+    </div>
+
+    <div class="controls  text-white flex flex-col items-center  md:flex-row absolute left-1/2 bottom-4 md:bottom-40 transform -translate-x-1/2  ">
+
+        <div class="score_text font-semibold md:mx-7 ">
+            <span class="mx-2">Score </span>
+            <span class="score_number">0</span>
+        </div>
+
+        <div class=" md:mx-7 mt-3 btns flex flex-row justify-center items-center w-64 md:w-96 rounded-lg py-5 ">
+            <button class="control_btn bg-black rounded-full p-2 md:p-6 hover:bg-neutral-900 mx-2" id="rock"><img class="w-6 md:w-8" src="assests/images/rock.png" alt=""></button>
+            <button class="control_btn bg-black rounded-full p-2 md:p-6 hover:bg-neutral-900 mx-2" id="paper"><img class="w-6 md:w-8" src="assests/images/paper.png" alt=""></button>
+            <button class="control_btn bg-black rounded-full p-2 md:p-6 hover:bg-neutral-900 mx-2" id="scissors"><img class="w-6 md:w-8" src="assests/images/scissors.png" alt=""></button>
+            
+        </div>
+
+        <button class="reset md:mx-7 mt-5 text-lg font-semibold bg-zinc-900 px-6 py-2 rounded-full">Reset</button>
+        
+    </div>
+    
+</body>
+</html>
